@@ -1,0 +1,35 @@
+# CORE LIBRARIES
+pillow
+numpy==1.26.4
+rembg
+torch
+torchvision
+
+# AI ENGINE & ACCELERATION
+# onnxruntime-directml handles both CPU and GPU (DirectX) on Windows
+onnxruntime-directml
+
+# IMAGE PROCESSING & MATTING
+# Required for high-quality background removal transitions
+pymatting
+PyMatting
+scipy
+scikit-image
+opencv-python-headless
+
+# REMBG INTERNALS & DEPENDENCIES
+pooch
+filetype
+watchdog
+tqdm
+asyncer
+fastapi
+uvicorn
+python-multipart
+click
+jinja2
+jsonschema
+imagehash
+importlib-metadata
+tzdata
+packaging
